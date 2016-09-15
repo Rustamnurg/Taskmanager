@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EA20B926BA57E077C9E7569BCF75379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		225DD4571279B12D9657AF580ED22A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2C59AA709BFC763CEA6F7732C6DC06F6 /* Pods-TaskmanagerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD2D61EC6D2F9FA2CD283681BA61A8 /* Pods-TaskmanagerTests-dummy.m */; };
+		35984BAF9ECAE7B3F08A3F2F34F349E5 /* MCSwipeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CDDB8F7C55B86BF4F3724B06A2E12F /* MCSwipeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37436618412EA709CFA57D94804A63CB /* Pods-TaskmanagerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BFFFE6B77612CAF8405817D7682A09 /* Pods-TaskmanagerUITests-dummy.m */; };
+		70BE619B6BFD4E4DA172B5EAD8C5B8C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9BF18A7B628CE58D3A0AA6C47B0DC380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B2A4FA04D6786442CD4E8F273013CAB4 /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B572E5FE9BA5393DA54FAE138AD7A /* MCSwipeTableViewCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2EC92445F49B891511E2D8A31139683 /* Pods-Taskmanager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F852992518E05AD3412039A61E741C /* Pods-Taskmanager-dummy.m */; };
+		ED283D6AF40241EFEC3ACB46476DB9A7 /* MCSwipeTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70379A6D3C61C22174ED2FA68A30AA4E /* MCSwipeTableViewCell-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70A1AC05D0D5AE9DAFD01700AAAA4865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE6EDDA3F1F49E92B0A88A27C35F361;
+			remoteInfo = MCSwipeTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B572E5FE9BA5393DA54FAE138AD7A /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCSwipeTableViewCell.m; path = MCSwipeTableViewCell/MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		077DDA385A5A8775F1D2694BAB69137F /* Pods-TaskmanagerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskmanagerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		100898B78EAA720A389CA9B118C8A88C /* Pods-TaskmanagerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskmanagerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11F852992518E05AD3412039A61E741C /* Pods-Taskmanager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Taskmanager-dummy.m"; sourceTree = "<group>"; };
+		132CE32B35434364EA8CFB6CE3BD35A3 /* Pods-Taskmanager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Taskmanager-frameworks.sh"; sourceTree = "<group>"; };
+		1397EF4DDFAFAD56CBE4E041C6706A02 /* Pods-TaskmanagerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskmanagerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4996913D76E0733C5ECFE45BE0BFDE56 /* Pods-TaskmanagerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskmanagerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AF1525787C57011E0D0A030A1425422 /* Pods-Taskmanager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Taskmanager.debug.xcconfig"; sourceTree = "<group>"; };
+		64BFFFE6B77612CAF8405817D7682A09 /* Pods-TaskmanagerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskmanagerUITests-dummy.m"; sourceTree = "<group>"; };
+		65CC4E4CA39EACF73AF09AA24FC1448E /* Pods-Taskmanager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Taskmanager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66241C5FC5C5990CC9E2CBC2B408EF66 /* Pods-TaskmanagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskmanagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70379A6D3C61C22174ED2FA68A30AA4E /* MCSwipeTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCSwipeTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		7107468834A6681717A67F7F8E361E5B /* Pods-Taskmanager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Taskmanager-resources.sh"; sourceTree = "<group>"; };
+		750715AF8D8D373F3698B301D529FFE6 /* Pods-TaskmanagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskmanagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E4DC44B1D24316AE6C1A573C0C4E597 /* libPods-TaskmanagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaskmanagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8195552E13B2829CEC4DB9CD0C3AA89C /* Pods-Taskmanager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Taskmanager-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C38BA27FFAE13CA87183E6AF841526C /* Pods-TaskmanagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskmanagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1988000BEACDFECA5C36A54582FE92 /* Pods-TaskmanagerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskmanagerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F99CB248B9D3BC2623AD93EBE6807C /* Pods-TaskmanagerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskmanagerTests-resources.sh"; sourceTree = "<group>"; };
+		98DD2D61EC6D2F9FA2CD283681BA61A8 /* Pods-TaskmanagerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskmanagerTests-dummy.m"; sourceTree = "<group>"; };
+		A7108CA77B584E7B1AA1133FAFFC9CD8 /* MCSwipeTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSwipeTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		AC76049258AD0754665EA4B0E88C639E /* Pods-TaskmanagerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskmanagerUITests-resources.sh"; sourceTree = "<group>"; };
+		BC20D56D7CF45F0E0B98B8F338AF5F34 /* MCSwipeTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCSwipeTableViewCell.xcconfig; sourceTree = "<group>"; };
+		C4CDDB8F7C55B86BF4F3724B06A2E12F /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSwipeTableViewCell.h; path = MCSwipeTableViewCell/MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		C5E6E367EFC518B5BAB5CD2D119603AF /* libMCSwipeTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMCSwipeTableViewCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D94878FB32E32067DB65730A6392A541 /* Pods-Taskmanager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Taskmanager.release.xcconfig"; sourceTree = "<group>"; };
+		DD6C7AD69233E137138ABBC0E2848EAB /* Pods-TaskmanagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskmanagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF1AE0CF7784E8C489ED2DA24E3B1742 /* Pods-TaskmanagerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskmanagerTests-frameworks.sh"; sourceTree = "<group>"; };
+		E3FB4470A6689DF7E62D11BB06F5C540 /* libPods-TaskmanagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaskmanagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FF719CDB21A6B72DBFEDE26BF59719 /* libPods-Taskmanager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Taskmanager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D82FBF5875F71F8002D4DED1D7C129C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA20B926BA57E077C9E7569BCF75379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBAE1661F1D7A789120512A0021A537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225DD4571279B12D9657AF580ED22A3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD04B70C33B73D9879E22D304D16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF18A7B628CE58D3A0AA6C47B0DC380 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E99AC29FA108443EF2A992A59AA8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BE619B6BFD4E4DA172B5EAD8C5B8C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B000A9CDFA33A013CC798B60A313CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC20D56D7CF45F0E0B98B8F338AF5F34 /* MCSwipeTableViewCell.xcconfig */,
+				70379A6D3C61C22174ED2FA68A30AA4E /* MCSwipeTableViewCell-dummy.m */,
+				A7108CA77B584E7B1AA1133FAFFC9CD8 /* MCSwipeTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCSwipeTableViewCell";
+			sourceTree = "<group>";
+		};
+		3A7F1219EB09A73A276B0C8D563191B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E6E367EFC518B5BAB5CD2D119603AF /* libMCSwipeTableViewCell.a */,
+				E8FF719CDB21A6B72DBFEDE26BF59719 /* libPods-Taskmanager.a */,
+				E3FB4470A6689DF7E62D11BB06F5C540 /* libPods-TaskmanagerTests.a */,
+				7E4DC44B1D24316AE6C1A573C0C4E597 /* libPods-TaskmanagerUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F3BF960FB49B16AFDFF5AE46684B905 /* Pods-TaskmanagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				077DDA385A5A8775F1D2694BAB69137F /* Pods-TaskmanagerTests-acknowledgements.markdown */,
+				100898B78EAA720A389CA9B118C8A88C /* Pods-TaskmanagerTests-acknowledgements.plist */,
+				98DD2D61EC6D2F9FA2CD283681BA61A8 /* Pods-TaskmanagerTests-dummy.m */,
+				DF1AE0CF7784E8C489ED2DA24E3B1742 /* Pods-TaskmanagerTests-frameworks.sh */,
+				97F99CB248B9D3BC2623AD93EBE6807C /* Pods-TaskmanagerTests-resources.sh */,
+				66241C5FC5C5990CC9E2CBC2B408EF66 /* Pods-TaskmanagerTests.debug.xcconfig */,
+				750715AF8D8D373F3698B301D529FFE6 /* Pods-TaskmanagerTests.release.xcconfig */,
+			);
+			name = "Pods-TaskmanagerTests";
+			path = "Target Support Files/Pods-TaskmanagerTests";
+			sourceTree = "<group>";
+		};
+		676D1E68AADDA50142F78C3B7B0EBC95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D345AC7433DC310456BB33FCEEE196CB /* MCSwipeTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7762887A656E264AC9D2DFB009E96DAF /* Pods-Taskmanager */ = {
+			isa = PBXGroup;
+			children = (
+				65CC4E4CA39EACF73AF09AA24FC1448E /* Pods-Taskmanager-acknowledgements.markdown */,
+				8195552E13B2829CEC4DB9CD0C3AA89C /* Pods-Taskmanager-acknowledgements.plist */,
+				11F852992518E05AD3412039A61E741C /* Pods-Taskmanager-dummy.m */,
+				132CE32B35434364EA8CFB6CE3BD35A3 /* Pods-Taskmanager-frameworks.sh */,
+				7107468834A6681717A67F7F8E361E5B /* Pods-Taskmanager-resources.sh */,
+				4AF1525787C57011E0D0A030A1425422 /* Pods-Taskmanager.debug.xcconfig */,
+				D94878FB32E32067DB65730A6392A541 /* Pods-Taskmanager.release.xcconfig */,
+			);
+			name = "Pods-Taskmanager";
+			path = "Target Support Files/Pods-Taskmanager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				676D1E68AADDA50142F78C3B7B0EBC95 /* Pods */,
+				3A7F1219EB09A73A276B0C8D563191B1 /* Products */,
+				F919F0756D41C89076C488CE1B7CB6E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D345AC7433DC310456BB33FCEEE196CB /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDDB8F7C55B86BF4F3724B06A2E12F /* MCSwipeTableViewCell.h */,
+				002B572E5FE9BA5393DA54FAE138AD7A /* MCSwipeTableViewCell.m */,
+				34B000A9CDFA33A013CC798B60A313CC /* Support Files */,
+			);
+			path = MCSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		F919F0756D41C89076C488CE1B7CB6E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7762887A656E264AC9D2DFB009E96DAF /* Pods-Taskmanager */,
+				4F3BF960FB49B16AFDFF5AE46684B905 /* Pods-TaskmanagerTests */,
+				FEDB480AB91A74376FA459D1F54FBE90 /* Pods-TaskmanagerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FEDB480AB91A74376FA459D1F54FBE90 /* Pods-TaskmanagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4996913D76E0733C5ECFE45BE0BFDE56 /* Pods-TaskmanagerUITests-acknowledgements.markdown */,
+				1397EF4DDFAFAD56CBE4E041C6706A02 /* Pods-TaskmanagerUITests-acknowledgements.plist */,
+				64BFFFE6B77612CAF8405817D7682A09 /* Pods-TaskmanagerUITests-dummy.m */,
+				8D1988000BEACDFECA5C36A54582FE92 /* Pods-TaskmanagerUITests-frameworks.sh */,
+				AC76049258AD0754665EA4B0E88C639E /* Pods-TaskmanagerUITests-resources.sh */,
+				8C38BA27FFAE13CA87183E6AF841526C /* Pods-TaskmanagerUITests.debug.xcconfig */,
+				DD6C7AD69233E137138ABBC0E2848EAB /* Pods-TaskmanagerUITests.release.xcconfig */,
+			);
+			name = "Pods-TaskmanagerUITests";
+			path = "Target Support Files/Pods-TaskmanagerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2F3362DAFC5A8D6591CD0AA38C14DC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35984BAF9ECAE7B3F08A3F2F34F349E5 /* MCSwipeTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		406DA469C8B06690F2A2F85698656D4A /* Pods-TaskmanagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D3B14AAB622EEAABA4DDC3D82C9FC4 /* Build configuration list for PBXNativeTarget "Pods-TaskmanagerTests" */;
+			buildPhases = (
+				6806CFF5635A7B619CDFD1B2376D20C6 /* Sources */,
+				664BD04B70C33B73D9879E22D304D16D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TaskmanagerTests";
+			productName = "Pods-TaskmanagerTests";
+			productReference = E3FB4470A6689DF7E62D11BB06F5C540 /* libPods-TaskmanagerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		515B0EC3E363E60E9E1350E2441E4717 /* Pods-Taskmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053002B97D5445018DBD363BA2F84C4D /* Build configuration list for PBXNativeTarget "Pods-Taskmanager" */;
+			buildPhases = (
+				3859CEEA112B30FD42C7AE49F5460E48 /* Sources */,
+				0D82FBF5875F71F8002D4DED1D7C129C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC986E7E5272B427F2E3F24A1E7E2434 /* PBXTargetDependency */,
+			);
+			name = "Pods-Taskmanager";
+			productName = "Pods-Taskmanager";
+			productReference = E8FF719CDB21A6B72DBFEDE26BF59719 /* libPods-Taskmanager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B7AA2019F75DD961C716D4F64D63F33 /* Pods-TaskmanagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4A4CC423FE27567E23E7A0AD868100 /* Build configuration list for PBXNativeTarget "Pods-TaskmanagerUITests" */;
+			buildPhases = (
+				2D2A466141E0CA0DFFFE81DED3E68CC9 /* Sources */,
+				F0E99AC29FA108443EF2A992A59AA8BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TaskmanagerUITests";
+			productName = "Pods-TaskmanagerUITests";
+			productReference = 7E4DC44B1D24316AE6C1A573C0C4E597 /* libPods-TaskmanagerUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BE6EDDA3F1F49E92B0A88A27C35F361 /* MCSwipeTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C748848017C4266A1031C57FAB204AE /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCell" */;
+			buildPhases = (
+				9EA7E50AFA6D07E21A1F22B5A68FE8C6 /* Sources */,
+				5CBAE1661F1D7A789120512A0021A537 /* Frameworks */,
+				F2F3362DAFC5A8D6591CD0AA38C14DC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSwipeTableViewCell;
+			productName = MCSwipeTableViewCell;
+			productReference = C5E6E367EFC518B5BAB5CD2D119603AF /* libMCSwipeTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3A7F1219EB09A73A276B0C8D563191B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BE6EDDA3F1F49E92B0A88A27C35F361 /* MCSwipeTableViewCell */,
+				515B0EC3E363E60E9E1350E2441E4717 /* Pods-Taskmanager */,
+				406DA469C8B06690F2A2F85698656D4A /* Pods-TaskmanagerTests */,
+				6B7AA2019F75DD961C716D4F64D63F33 /* Pods-TaskmanagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2A466141E0CA0DFFFE81DED3E68CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37436618412EA709CFA57D94804A63CB /* Pods-TaskmanagerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3859CEEA112B30FD42C7AE49F5460E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EC92445F49B891511E2D8A31139683 /* Pods-Taskmanager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6806CFF5635A7B619CDFD1B2376D20C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C59AA709BFC763CEA6F7732C6DC06F6 /* Pods-TaskmanagerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA7E50AFA6D07E21A1F22B5A68FE8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED283D6AF40241EFEC3ACB46476DB9A7 /* MCSwipeTableViewCell-dummy.m in Sources */,
+				B2A4FA04D6786442CD4E8F273013CAB4 /* MCSwipeTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC986E7E5272B427F2E3F24A1E7E2434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCSwipeTableViewCell;
+			target = 8BE6EDDA3F1F49E92B0A88A27C35F361 /* MCSwipeTableViewCell */;
+			targetProxy = 70A1AC05D0D5AE9DAFD01700AAAA4865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1680B54E20B5E02E1D855B8913CDD226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC20D56D7CF45F0E0B98B8F338AF5F34 /* MCSwipeTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCSwipeTableViewCell/MCSwipeTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42387DEED18BBE916144E0D0E35FEEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94878FB32E32067DB65730A6392A541 /* Pods-Taskmanager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42FF13ADEA4F844A8A2E78B10A61D4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C38BA27FFAE13CA87183E6AF841526C /* Pods-TaskmanagerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		780B7977BCCC8CC6C01FCAD63DB06DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6C7AD69233E137138ABBC0E2848EAB /* Pods-TaskmanagerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		898CEE1E59F32DA69DD39DFC1ADC786D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC20D56D7CF45F0E0B98B8F338AF5F34 /* MCSwipeTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCSwipeTableViewCell/MCSwipeTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A11CD65811D7A3A877B1999C213B5363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750715AF8D8D373F3698B301D529FFE6 /* Pods-TaskmanagerTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D265E122DA52D51FA06DB541BE186281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF1525787C57011E0D0A030A1425422 /* Pods-Taskmanager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8B0CADE52FCBEC6FA9F0553E350ABE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66241C5FC5C5990CC9E2CBC2B408EF66 /* Pods-TaskmanagerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		053002B97D5445018DBD363BA2F84C4D /* Build configuration list for PBXNativeTarget "Pods-Taskmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D265E122DA52D51FA06DB541BE186281 /* Debug */,
+				42387DEED18BBE916144E0D0E35FEEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D3B14AAB622EEAABA4DDC3D82C9FC4 /* Build configuration list for PBXNativeTarget "Pods-TaskmanagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B0CADE52FCBEC6FA9F0553E350ABE5 /* Debug */,
+				A11CD65811D7A3A877B1999C213B5363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4A4CC423FE27567E23E7A0AD868100 /* Build configuration list for PBXNativeTarget "Pods-TaskmanagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FF13ADEA4F844A8A2E78B10A61D4B6 /* Debug */,
+				780B7977BCCC8CC6C01FCAD63DB06DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C748848017C4266A1031C57FAB204AE /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1680B54E20B5E02E1D855B8913CDD226 /* Debug */,
+				898CEE1E59F32DA69DD39DFC1ADC786D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
