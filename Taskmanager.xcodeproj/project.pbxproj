@@ -10,6 +10,10 @@
 		434163B433EB504AC2FDFEF8 /* libPods-TaskmanagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF934B5461A655622EE9887 /* libPods-TaskmanagerUITests.a */; };
 		4A0816D71D6D570B002DD7FD /* TVCGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0816D61D6D570B002DD7FD /* TVCGoal.m */; };
 		4A0D2E7B1D6A1B1F0029682C /* TVCDailyTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D2E7A1D6A1B1F0029682C /* TVCDailyTasks.m */; };
+<<<<<<< Updated upstream
+=======
+		4A0D2E7E1D6AEADB0029682C /* dataObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D2E7D1D6AEADB0029682C /* dataObj.m */; };
+>>>>>>> Stashed changes
 		4A5DA8831D670E2B00FBD8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8821D670E2B00FBD8DB /* main.m */; };
 		4A5DA8861D670E2B00FBD8DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8851D670E2B00FBD8DB /* AppDelegate.m */; };
 		4A5DA8891D670E2B00FBD8DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8881D670E2B00FBD8DB /* ViewController.m */; };
@@ -19,6 +23,7 @@
 		4A5DA89C1D670E2C00FBD8DB /* TaskmanagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA89B1D670E2C00FBD8DB /* TaskmanagerTests.m */; };
 		4A5DA8A71D670E2C00FBD8DB /* TaskmanagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8A61D670E2C00FBD8DB /* TaskmanagerUITests.m */; };
 		4A5DA8BC1D67673000FBD8DB /* VCCreatingGoals.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8BB1D67673000FBD8DB /* VCCreatingGoals.m */; };
+<<<<<<< Updated upstream
 		4A5DA8C21D67A5EB00FBD8DB /* VCCreatingTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8C11D67A5EB00FBD8DB /* VCCreatingTasks.m */; };
 		4AA1B8D61D72281000A12ABF /* TVCDailyTasksCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1B8D41D72281000A12ABF /* TVCDailyTasksCell.m */; };
 		4AA1B8D71D72281000A12ABF /* TVCDailyTasksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA1B8D51D72281000A12ABF /* TVCDailyTasksCell.xib */; };
@@ -30,6 +35,13 @@
 		4AEA7F781D6EA34400FD25AB /* VCTaskDailyDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7F771D6EA34400FD25AB /* VCTaskDailyDetail.m */; };
 		4AEA7F811D6F49DF00FD25AB /* UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7F801D6F49DF00FD25AB /* UITextView.m */; };
 		4AEA7F871D6F734500FD25AB /* VCCreateReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7F861D6F734500FD25AB /* VCCreateReward.m */; };
+=======
+		4A5DA8BF1D67945C00FBD8DB /* VCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8BE1D67945C00FBD8DB /* VCTest.m */; };
+		4A5DA8C21D67A5EB00FBD8DB /* VCCreatingTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DA8C11D67A5EB00FBD8DB /* VCCreatingTasks.m */; };
+		4AD53F561D68B98D0014DEF2 /* DateGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD53F551D68B98D0014DEF2 /* DateGoal.m */; };
+		4AEA7F751D6E15BB00FD25AB /* VCGoalDetalTabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7F741D6E15BB00FD25AB /* VCGoalDetalTabel.m */; };
+		4AEA7F781D6EA34400FD25AB /* VCTaskDailyDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7F771D6EA34400FD25AB /* VCTaskDailyDetail.m */; };
+>>>>>>> Stashed changes
 		6A6D875DA2666D4CEAC0BBBB /* libPods-TaskmanagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EE13F35B6D693C9E41FC27 /* libPods-TaskmanagerTests.a */; };
 		BBC2E9AEAA58D7382D4A2471 /* libPods-Taskmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634E529D662E581E1D1422C6 /* libPods-Taskmanager.a */; };
 /* End PBXBuildFile section */
@@ -58,6 +70,11 @@
 		4A0816D61D6D570B002DD7FD /* TVCGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCGoal.m; sourceTree = "<group>"; };
 		4A0D2E791D6A1B1F0029682C /* TVCDailyTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCDailyTasks.h; sourceTree = "<group>"; };
 		4A0D2E7A1D6A1B1F0029682C /* TVCDailyTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCDailyTasks.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		4A0D2E7C1D6AEADB0029682C /* dataObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataObj.h; sourceTree = "<group>"; };
+		4A0D2E7D1D6AEADB0029682C /* dataObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataObj.m; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		4A5DA87E1D670E2B00FBD8DB /* Taskmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5DA8821D670E2B00FBD8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A5DA8841D670E2B00FBD8DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +93,7 @@
 		4A5DA8A81D670E2C00FBD8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5DA8BA1D67673000FBD8DB /* VCCreatingGoals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCreatingGoals.h; sourceTree = "<group>"; };
 		4A5DA8BB1D67673000FBD8DB /* VCCreatingGoals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCreatingGoals.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		4A5DA8C01D67A5EB00FBD8DB /* VCCreatingTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCreatingTasks.h; sourceTree = "<group>"; };
 		4A5DA8C11D67A5EB00FBD8DB /* VCCreatingTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCreatingTasks.m; sourceTree = "<group>"; };
 		4AA1B8D31D72281000A12ABF /* TVCDailyTasksCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCDailyTasksCell.h; sourceTree = "<group>"; };
@@ -88,14 +106,25 @@
 		4AE4FFA91D701A910028CE52 /* RewardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardCell.h; sourceTree = "<group>"; };
 		4AE4FFAA1D701A910028CE52 /* RewardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardCell.m; sourceTree = "<group>"; };
 		4AE4FFAB1D701A910028CE52 /* RewardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RewardCell.xib; sourceTree = "<group>"; };
+=======
+		4A5DA8BD1D67945C00FBD8DB /* VCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTest.h; sourceTree = "<group>"; };
+		4A5DA8BE1D67945C00FBD8DB /* VCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTest.m; sourceTree = "<group>"; };
+		4A5DA8C01D67A5EB00FBD8DB /* VCCreatingTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCreatingTasks.h; sourceTree = "<group>"; };
+		4A5DA8C11D67A5EB00FBD8DB /* VCCreatingTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCreatingTasks.m; sourceTree = "<group>"; };
+		4AD53F541D68B98D0014DEF2 /* DateGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateGoal.h; sourceTree = "<group>"; };
+		4AD53F551D68B98D0014DEF2 /* DateGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateGoal.m; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		4AEA7F731D6E15BB00FD25AB /* VCGoalDetalTabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCGoalDetalTabel.h; sourceTree = "<group>"; };
 		4AEA7F741D6E15BB00FD25AB /* VCGoalDetalTabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCGoalDetalTabel.m; sourceTree = "<group>"; };
 		4AEA7F761D6EA34400FD25AB /* VCTaskDailyDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTaskDailyDetail.h; sourceTree = "<group>"; };
 		4AEA7F771D6EA34400FD25AB /* VCTaskDailyDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTaskDailyDetail.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		4AEA7F7F1D6F49DF00FD25AB /* UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextView.h; sourceTree = "<group>"; };
 		4AEA7F801D6F49DF00FD25AB /* UITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextView.m; sourceTree = "<group>"; };
 		4AEA7F851D6F734500FD25AB /* VCCreateReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCreateReward.h; sourceTree = "<group>"; };
 		4AEA7F861D6F734500FD25AB /* VCCreateReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCreateReward.m; sourceTree = "<group>"; };
+=======
+>>>>>>> Stashed changes
 		4B04FC2269D16765EF6F4D06 /* Pods-TaskmanagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskmanagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskmanagerUITests/Pods-TaskmanagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BD05DFD52498DCF9D51F520 /* Pods-TaskmanagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskmanagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskmanagerUITests/Pods-TaskmanagerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		54EE13F35B6D693C9E41FC27 /* libPods-TaskmanagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaskmanagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,12 +208,19 @@
 		4A5DA8811D670E2B00FBD8DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				4AEA7F7F1D6F49DF00FD25AB /* UITextView.h */,
 				4AEA7F801D6F49DF00FD25AB /* UITextView.m */,
+=======
+				4A5DA8BD1D67945C00FBD8DB /* VCTest.h */,
+				4A5DA8BE1D67945C00FBD8DB /* VCTest.m */,
+>>>>>>> Stashed changes
 				4A5DA8921D670E2B00FBD8DB /* Info.plist */,
 				4A5DA8841D670E2B00FBD8DB /* AppDelegate.h */,
 				4A5DA8851D670E2B00FBD8DB /* AppDelegate.m */,
 				4A5DA8821D670E2B00FBD8DB /* main.m */,
+				4A0D2E7C1D6AEADB0029682C /* dataObj.h */,
+				4A0D2E7D1D6AEADB0029682C /* dataObj.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,15 +273,19 @@
 				4A5DA8C11D67A5EB00FBD8DB /* VCCreatingTasks.m */,
 				4A0D2E791D6A1B1F0029682C /* TVCDailyTasks.h */,
 				4A0D2E7A1D6A1B1F0029682C /* TVCDailyTasks.m */,
+<<<<<<< Updated upstream
 				4AA1B8D31D72281000A12ABF /* TVCDailyTasksCell.h */,
 				4AA1B8D41D72281000A12ABF /* TVCDailyTasksCell.m */,
 				4AA1B8D51D72281000A12ABF /* TVCDailyTasksCell.xib */,
+=======
+>>>>>>> Stashed changes
 				4A0816D51D6D570B002DD7FD /* TVCGoal.h */,
 				4A0816D61D6D570B002DD7FD /* TVCGoal.m */,
 				4AEA7F731D6E15BB00FD25AB /* VCGoalDetalTabel.h */,
 				4AEA7F741D6E15BB00FD25AB /* VCGoalDetalTabel.m */,
 				4AEA7F761D6EA34400FD25AB /* VCTaskDailyDetail.h */,
 				4AEA7F771D6EA34400FD25AB /* VCTaskDailyDetail.m */,
+<<<<<<< Updated upstream
 				4AEA7F851D6F734500FD25AB /* VCCreateReward.h */,
 				4AEA7F861D6F734500FD25AB /* VCCreateReward.m */,
 				4AE4FFA31D7015FF0028CE52 /* VCRewardOut.h */,
@@ -253,6 +293,8 @@
 				4AE4FFA91D701A910028CE52 /* RewardCell.h */,
 				4AE4FFAA1D701A910028CE52 /* RewardCell.m */,
 				4AE4FFAB1D701A910028CE52 /* RewardCell.xib */,
+=======
+>>>>>>> Stashed changes
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -535,20 +577,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEA7F751D6E15BB00FD25AB /* VCGoalDetalTabel.m in Sources */,
+<<<<<<< Updated upstream
 				4AEA7F871D6F734500FD25AB /* VCCreateReward.m in Sources */,
 				4AEA7F811D6F49DF00FD25AB /* UITextView.m in Sources */,
 				4AE4FFA51D7015FF0028CE52 /* VCRewardOut.m in Sources */,
+=======
+>>>>>>> Stashed changes
 				4A0D2E7B1D6A1B1F0029682C /* TVCDailyTasks.m in Sources */,
 				4A5DA8C21D67A5EB00FBD8DB /* VCCreatingTasks.m in Sources */,
 				4A0816D71D6D570B002DD7FD /* TVCGoal.m in Sources */,
 				4A5DA8BC1D67673000FBD8DB /* VCCreatingGoals.m in Sources */,
+<<<<<<< Updated upstream
 				4AA1B8D61D72281000A12ABF /* TVCDailyTasksCell.m in Sources */,
 				4AE4FFAC1D701A910028CE52 /* RewardCell.m in Sources */,
+=======
+>>>>>>> Stashed changes
 				4A5DA8891D670E2B00FBD8DB /* ViewController.m in Sources */,
 				4A5DA8861D670E2B00FBD8DB /* AppDelegate.m in Sources */,
 				4A5DA8831D670E2B00FBD8DB /* main.m in Sources */,
 				4AEA7F781D6EA34400FD25AB /* VCTaskDailyDetail.m in Sources */,
 				4AD53F561D68B98D0014DEF2 /* DateGoal.m in Sources */,
+<<<<<<< Updated upstream
+=======
+				4A0D2E7E1D6AEADB0029682C /* dataObj.m in Sources */,
+				4A5DA8BF1D67945C00FBD8DB /* VCTest.m in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,7 +751,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Rustam.Taskmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+<<<<<<< Updated upstream
 				TARGETED_DEVICE_FAMILY = 1;
+=======
+>>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -715,7 +771,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Rustam.Taskmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+<<<<<<< Updated upstream
 				TARGETED_DEVICE_FAMILY = 1;
+=======
+>>>>>>> Stashed changes
 			};
 			name = Release;
 		};

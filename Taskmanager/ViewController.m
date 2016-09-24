@@ -12,7 +12,10 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *addGoal;
+<<<<<<< Updated upstream
 @property (weak, nonatomic) IBOutlet UIButton *addReward;
+=======
+>>>>>>> Stashed changes
 
 @end
 
@@ -23,10 +26,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"BG"]]];
+<<<<<<< Updated upstream
     _addGoal.layer.cornerRadius = 15;
     _addGoal.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Round Button"]];
     _addReward.layer.cornerRadius = 15;
     _addReward.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Round Button White"]];
+=======
+    _addGoal.layer.cornerRadius = 20;
+    
+    
+    
+    
+ 
+>>>>>>> Stashed changes
     
 }
 
@@ -38,7 +50,13 @@
     NSUserDefaults *t =[NSUserDefaults standardUserDefaults];
     [t removeObjectForKey:@"keyTask"];
     [t removeObjectForKey:@"keyGoal"];
+<<<<<<< Updated upstream
     [t removeObjectForKey:@"keyReward"];
+=======
+    
+
+
+>>>>>>> Stashed changes
 }
 
 @end

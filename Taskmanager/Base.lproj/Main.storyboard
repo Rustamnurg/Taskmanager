@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< Updated upstream
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vo6-lp-YDr">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vo6-lp-YDr">
+>>>>>>> Stashed changes
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -13,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< Updated upstream
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wxK-0u-maJ">
                                 <rect key="frame" x="260" y="71" width="60" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +63,67 @@
                     <connections>
                         <outlet property="addGoal" destination="lEM-We-QsB" id="smh-AA-yzX"/>
                         <outlet property="addReward" destination="Cm2-pw-9tO" id="5DS-I8-3iL"/>
+=======
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="esr-5e-adL">
+                                <rect key="frame" x="45" y="349" width="206" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="ADD A GOAL" backgroundImage="Round Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="UvA-Z3-i5U" kind="push" id="RCL-rk-JMB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UcN-mv-VoK">
+                                <rect key="frame" x="45" y="427" width="206" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="ADD A REWARD" backgroundImage="Round Button White">
+                                    <color key="titleColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RhI-NH-IaY" kind="push" id="PTm-kP-rVk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wxK-0u-maJ">
+                                <rect key="frame" x="260" y="484" width="60" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Del"/>
+                                <connections>
+                                    <action selector="del:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Meh-sI-SJH"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="&quot;Discipline is the bridge between goals and accomplishment.&quot;" textAlignment="center" id="aaV-Ha-ze0">
+                                <rect key="frame" x="20" y="112" width="277" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" id="cdF-OQ-Z9n"/>
+                    <connections>
+                        <outlet property="addGoal" destination="esr-5e-adL" id="Kyr-uW-fXq"/>
+>>>>>>> Stashed changes
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -72,6 +138,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+<<<<<<< Updated upstream
                         <color key="separatorColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jib-Fm-LaJ">
@@ -80,6 +147,41 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jib-Fm-LaJ" id="MSl-7l-tlr">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
                                     <autoresizingMask key="autoresizingMask"/>
+=======
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="cell" rowHeight="82" id="p4U-OA-va6">
+                                <rect key="frame" x="0.0" y="114" width="320" height="82"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p4U-OA-va6" id="fdy-Gv-gYe">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iBb-UH-aw8">
+                                            <rect key="frame" x="276" y="26" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="inf"/>
+                                            <connections>
+                                                <action selector="pressedButtonInf:" destination="a1a-D0-zF2" eventType="touchUpInside" id="xcG-v7-EGb"/>
+                                                <segue destination="GLg-jh-vJf" kind="push" id="euI-lX-dWt"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wpL-CT-hQN">
+                                            <rect key="frame" x="199" y="26" width="48" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="done?"/>
+                                            <connections>
+                                                <action selector="pressedButtonDone:" destination="a1a-D0-zF2" eventType="touchUpInside" id="7kh-c4-a0F"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LIX-pL-1NF">
+                                            <rect key="frame" x="255" y="30" width="19" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+>>>>>>> Stashed changes
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -89,6 +191,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ZgE-yt-WMZ"/>
+<<<<<<< Updated upstream
                     <connections>
                         <outlet property="tabelView" destination="7O2-lX-qLK" id="2jm-EI-ujU"/>
                     </connections>
@@ -96,6 +199,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T6x-AI-qiq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="209" y="892"/>
+=======
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T6x-AI-qiq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="892"/>
+>>>>>>> Stashed changes
         </scene>
         <!--Task Daily Detail-->
         <scene sceneID="FnV-IM-dDP">
@@ -258,6 +367,57 @@
             </objects>
             <point key="canvasLocation" x="615" y="1679"/>
         </scene>
+<<<<<<< Updated upstream
+=======
+        <!--Item-->
+        <scene sceneID="cDX-7c-lbt">
+            <objects>
+                <viewController id="BWW-g4-REV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YRR-7X-wqD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="arU-By-XTm">
+                                <rect key="frame" x="74" y="54" width="138" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bpv-ia-VgU">
+                                <rect key="frame" x="29" y="251" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7jO-W0-l5K">
+                                        <rect key="frame" x="0.0" y="28" width="240" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7jO-W0-l5K" id="mmr-j7-uNb">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Aka-zN-Qas">
+                                        <rect key="frame" x="0.0" y="72" width="240" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Aka-zN-Qas" id="9ZU-YR-phG">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.33971017599105835" green="0.7522621750831604" blue="0.6011163592338562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="gIi-JQ-Old"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ArM-OJ-sKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-807" y="2354"/>
+        </scene>
+>>>>>>> Stashed changes
         <!--Creating Goals-->
         <scene sceneID="Uue-LD-A99">
             <objects>
@@ -267,6 +427,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="q4M-7V-7es">
+<<<<<<< Updated upstream
                                 <rect key="frame" x="0.0" y="64" width="320" height="457"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -297,23 +458,84 @@
                                         <state key="normal" title="&gt; Set the Goal">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+=======
+                                <rect key="frame" x="0.0" y="63" width="320" height="464"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="meS-67-5O4">
+                                        <rect key="frame" x="184" y="353" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt; Set the Goal"/>
+>>>>>>> Stashed changes
                                         <connections>
                                             <action selector="addTask:" destination="UvA-Z3-i5U" eventType="touchUpInside" id="mtE-l0-osk"/>
                                             <segue destination="OBo-tc-0U7" kind="push" id="YT7-rs-3om"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kvN-Hm-uOd">
+<<<<<<< Updated upstream
                                         <rect key="frame" x="33" y="285" width="110" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="+ Add a Task">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+=======
+                                        <rect key="frame" x="28" y="353" width="89" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="+ Add a Task"/>
+>>>>>>> Stashed changes
                                         <connections>
                                             <action selector="saveButton:" destination="UvA-Z3-i5U" eventType="touchUpInside" id="jIq-44-VNd"/>
                                         </connections>
                                     </button>
+<<<<<<< Updated upstream
                                 </subviews>
                                 <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" id="lHB-Wv-rV8">
+                                        <rect key="frame" x="12" y="249" width="312" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="time(global)" textAlignment="natural" minimumFontSize="17" id="gTc-OL-Bbh">
+                                        <rect key="frame" x="0.0" y="315" width="320" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="timeTextFildOut:" destination="UvA-Z3-i5U" eventType="editingDidEndOnExit" id="s2e-uE-a7Z"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" id="vpn-ts-qp2">
+                                        <rect key="frame" x="4" y="287" width="312" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="0fz-xJ-4pg">
+                                        <rect key="frame" x="38" y="22" width="244" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="O3S-h0-nkW">
+                                        <rect key="frame" x="38" y="73" width="244" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="4wh-vJ-c0Q">
+                                        <rect key="frame" x="38" y="116" width="244" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+>>>>>>> Stashed changes
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="10" height="1000"/>
@@ -325,12 +547,19 @@
                     </view>
                     <navigationItem key="navigationItem" title="Creating Goals" id="Xnb-gr-7TC"/>
                     <connections>
+<<<<<<< Updated upstream
                         <outlet property="addButton" destination="meS-67-5O4" id="SCg-PJ-9IG"/>
                         <outlet property="descriptionTextViewGoal" destination="O3S-h0-nkW" id="hNt-yQ-WwK"/>
                         <outlet property="nameTextFildGoal" destination="0fz-xJ-4pg" id="wHg-Zu-OVr"/>
                         <outlet property="saveButton" destination="kvN-Hm-uOd" id="gBp-rn-BZu"/>
                         <outlet property="scrollView" destination="q4M-7V-7es" id="aam-uH-7Hp"/>
                         <outlet property="timeTextFildGoal" destination="4wh-vJ-c0Q" id="1ac-tb-d9P"/>
+=======
+                        <outlet property="descriptionTextViewGoal" destination="vpn-ts-qp2" id="nr1-oS-hV0"/>
+                        <outlet property="nameTextFildGoal" destination="lHB-Wv-rV8" id="jxx-5J-b51"/>
+                        <outlet property="scrollView" destination="q4M-7V-7es" id="ZXP-dC-kea"/>
+                        <outlet property="timeTextFildGoal" destination="gTc-OL-Bbh" id="ips-jJ-CPQ"/>
+>>>>>>> Stashed changes
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgR-vP-ubC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -345,6 +574,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< Updated upstream
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HKg-9x-gHj">
                                 <rect key="frame" x="-4" y="65" width="329" height="451"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,11 +630,61 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
+=======
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="vn9-R5-TeU">
+                                <rect key="frame" x="20" y="293" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yUh-mi-qWL">
+                                <rect key="frame" x="145" y="425" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="add"/>
+                                <connections>
+                                    <action selector="addButton:" destination="OBo-tc-0U7" eventType="touchUpInside" id="NqZ-3i-t5I"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" useCurrentDate="NO" id="z8D-8X-Rmi">
+                                <rect key="frame" x="104" y="271" width="183" height="76"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="493633017.539047">
+                                    <!--2016-08-23 08:16:57 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="ru"/>
+                            </datePicker>
+                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="time(for everyday)" textAlignment="natural" minimumFontSize="17" id="c8V-Ow-0e2">
+                                <rect key="frame" x="98" y="165" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" id="ocy-AQ-5Tn">
+                                <rect key="frame" x="98" y="79" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" id="842-dV-qtx">
+                                <rect key="frame" x="98" y="122" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Xp" textAlignment="natural" minimumFontSize="17" id="imi-0T-xU8">
+                                <rect key="frame" x="98" y="203" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="keyOut:" destination="OBo-tc-0U7" eventType="editingDidEndOnExit" id="Xyp-2q-iTa"/>
+                                </connections>
+                            </textField>
+>>>>>>> Stashed changes
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Creating Tasks" id="Exc-AS-o4t"/>
                     <connections>
+<<<<<<< Updated upstream
                         <outlet property="addButton" destination="yUh-mi-qWL" id="aWh-p2-WCf"/>
                         <outlet property="dataPiker" destination="z8D-8X-Rmi" id="BX4-mh-7mP"/>
                         <outlet property="descriptionTextFildTask" destination="K8i-bu-SZX" id="IF2-dI-lDM"/>
@@ -412,12 +692,21 @@
                         <outlet property="switshButton" destination="vn9-R5-TeU" id="1Bl-81-OS1"/>
                         <outlet property="timeTextFildTask" destination="e9X-R8-8tu" id="31N-rP-3yp"/>
                         <outlet property="xpTextFildTask" destination="ecT-zg-Voq" id="ZNd-0F-xmy"/>
+=======
+                        <outlet property="dataPiker" destination="z8D-8X-Rmi" id="BX4-mh-7mP"/>
+                        <outlet property="descriptionTextFildTask" destination="842-dV-qtx" id="c9D-YK-sW8"/>
+                        <outlet property="nameTextFildTask" destination="ocy-AQ-5Tn" id="b6u-Zq-0dv"/>
+                        <outlet property="switshButton" destination="vn9-R5-TeU" id="1Bl-81-OS1"/>
+                        <outlet property="timeTextFildTask" destination="c8V-Ow-0e2" id="ZnN-1v-Uih"/>
+                        <outlet property="xpTextFildTask" destination="imi-0T-xU8" id="5Oa-Se-yJX"/>
+>>>>>>> Stashed changes
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xBZ-b4-Imi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1062" y="197"/>
         </scene>
+<<<<<<< Updated upstream
         <!--Navigation Controller-->
         <scene sceneID="YOZ-bX-qax">
             <objects>
@@ -425,6 +714,13 @@
                     <tabBarItem key="tabBarItem" image="rsz_home" id="fLl-YG-s2F">
                         <inset key="imageInsets" minX="24" minY="7" maxX="-24" maxY="-7"/>
                     </tabBarItem>
+=======
+        <!--Item-->
+        <scene sceneID="YOZ-bX-qax">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="147-ia-FhX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fLl-YG-s2F"/>
+>>>>>>> Stashed changes
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZPQ-eM-APr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -437,16 +733,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ngy-1J-QNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< Updated upstream
             <point key="canvasLocation" x="-279" y="105"/>
         </scene>
         <!--Create Reward-->
         <scene sceneID="8je-GT-OEX">
             <objects>
                 <viewController id="RhI-NH-IaY" customClass="VCCreateReward" sceneMemberID="viewController">
+=======
+            <point key="canvasLocation" x="-295" y="91"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8je-GT-OEX">
+            <objects>
+                <viewController id="RhI-NH-IaY" sceneMemberID="viewController">
+>>>>>>> Stashed changes
                     <view key="view" contentMode="scaleToFill" id="unh-cz-JbU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< Updated upstream
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jSY-Qz-CBX">
                                 <rect key="frame" x="0.0" y="65" width="320" height="468"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -482,20 +788,43 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
+=======
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" id="1gb-0E-Yxr">
+                                <rect key="frame" x="96" y="168" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value" textAlignment="natural" minimumFontSize="17" id="KSb-5M-Ryt">
+                                <rect key="frame" x="96" y="264" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DbX-rl-3d0">
+                                <rect key="frame" x="139" y="366" width="43" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="add"/>
+                            </button>
+>>>>>>> Stashed changes
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Les-pf-YhD"/>
+<<<<<<< Updated upstream
                     <connections>
                         <outlet property="addButton" destination="eYE-Jn-SmS" id="DHO-9M-YXb"/>
                         <outlet property="nameTextReward" destination="qI5-LX-ptr" id="cAa-7N-xj2"/>
                         <outlet property="priceTextReward" destination="frG-RP-4LV" id="gxT-yH-2lg"/>
                     </connections>
+=======
+>>>>>>> Stashed changes
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7x2-xq-qIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="615" y="-425"/>
         </scene>
+<<<<<<< Updated upstream
         <!--Reward Out-->
         <scene sceneID="V0U-8t-jQR">
             <objects>
@@ -551,6 +880,8 @@
             </objects>
             <point key="canvasLocation" x="-762" y="1648"/>
         </scene>
+=======
+>>>>>>> Stashed changes
         <!--Tab Bar Controller-->
         <scene sceneID="rZU-PJ-tQT">
             <objects>
@@ -564,13 +895,18 @@
                         <segue destination="147-ia-FhX" kind="relationship" relationship="viewControllers" id="GF6-0b-JO1"/>
                         <segue destination="4Fj-xN-lZl" kind="relationship" relationship="viewControllers" id="Dw3-Dw-au3"/>
                         <segue destination="5kf-aS-jXq" kind="relationship" relationship="viewControllers" id="wO9-iG-2kw"/>
+<<<<<<< Updated upstream
                         <segue destination="wqh-YX-jx7" kind="relationship" relationship="viewControllers" id="lp7-fR-jLg"/>
+=======
+                        <segue destination="BWW-g4-REV" kind="relationship" relationship="viewControllers" id="Crg-7E-h1T"/>
+>>>>>>> Stashed changes
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sHO-jn-Yrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-807" y="651"/>
         </scene>
+<<<<<<< Updated upstream
         <!--Navigation Controller-->
         <scene sceneID="adI-Ip-oMG">
             <objects>
@@ -578,6 +914,13 @@
                     <tabBarItem key="tabBarItem" title="" image="rsz_menu" id="p3b-p6-oi7">
                         <inset key="imageInsets" minX="-5" minY="7" maxX="5" maxY="-7"/>
                     </tabBarItem>
+=======
+        <!--Item-->
+        <scene sceneID="adI-Ip-oMG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5kf-aS-jXq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="p3b-p6-oi7"/>
+>>>>>>> Stashed changes
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="926-rG-oEk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -592,6 +935,7 @@
             </objects>
             <point key="canvasLocation" x="-295" y="1670"/>
         </scene>
+<<<<<<< Updated upstream
         <!--Navigation Controller-->
         <scene sceneID="wxS-j6-QWj">
             <objects>
@@ -599,6 +943,13 @@
                     <tabBarItem key="tabBarItem" title="" image="rsz_calendar" id="uon-mO-vYp">
                         <inset key="imageInsets" minX="5" minY="7" maxX="-5" maxY="-7"/>
                     </tabBarItem>
+=======
+        <!--Item-->
+        <scene sceneID="wxS-j6-QWj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Fj-xN-lZl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uon-mO-vYp"/>
+>>>>>>> Stashed changes
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WOj-6W-XBR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -615,9 +966,14 @@
         </scene>
     </scenes>
     <resources>
+<<<<<<< Updated upstream
         <image name="rsz_calendar" width="20" height="20"/>
         <image name="rsz_cup" width="20" height="20"/>
         <image name="rsz_home" width="21" height="22"/>
         <image name="rsz_menu" width="20" height="19"/>
+=======
+        <image name="Round Button" width="250" height="56"/>
+        <image name="Round Button White" width="250" height="56"/>
+>>>>>>> Stashed changes
     </resources>
 </document>

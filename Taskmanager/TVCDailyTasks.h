@@ -11,6 +11,7 @@
 @interface TVCDailyTasks : UITableViewController
 {
     NSMutableArray *arrTask;
+<<<<<<< Updated upstream
  //   NSMutableArray *arrTaskForOut;
 }
 @property (weak, nonatomic) IBOutlet UILabel *xp;
@@ -20,4 +21,11 @@
 
 
 
+=======
+    NSMutableArray *arrTaskForOut;
+}
+@property (nonatomic) int count;
+@property (nonatomic) int num;
+@property (nonatomic) NSInteger rowActiv;
+>>>>>>> Stashed changes
 @end

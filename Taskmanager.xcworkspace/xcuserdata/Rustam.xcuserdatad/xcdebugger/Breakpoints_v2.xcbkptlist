@@ -26,11 +26,19 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/VCCreatingTasks.m"
+<<<<<<< Updated upstream
             timestampString = "493981339.40865"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
             endingLineNumber = "101"
+=======
+            timestampString = "493720548.097438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+>>>>>>> Stashed changes
             landmarkName = "-addButton:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,7 +50,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/VCCreatingGoals.m"
+<<<<<<< Updated upstream
             timestampString = "493836607.595594"
+=======
+            timestampString = "493827663.398576"
+>>>>>>> Stashed changes
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -58,7 +70,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/VCCreatingGoals.m"
+<<<<<<< Updated upstream
             timestampString = "493836607.595594"
+=======
+            timestampString = "493827663.398576"
+>>>>>>> Stashed changes
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -74,11 +90,35 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494071116.625262"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
             endingLineNumber = "47"
+=======
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-viewWillAppear:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+>>>>>>> Stashed changes
             landmarkName = "-viewWillAppear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,12 +210,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494075636.166646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
             endingLineNumber = "101"
             landmarkName = "-prepareForSegue:sender:"
+=======
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-pressedButtonDone:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -186,12 +235,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494075636.166646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
             endingLineNumber = "101"
             landmarkName = "-prepareForSegue:sender:"
+=======
+            timestampString = "493813770.143204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -202,12 +260,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494071116.625262"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
             landmarkName = "-didClickOnCellAtIndex:withData:"
+=======
+            timestampString = "493813770.143204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-prepareForSegue:sender:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -218,6 +285,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494075636.166646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -256,6 +324,14 @@
             startingLineNumber = "45"
             endingLineNumber = "45"
             landmarkName = "-addButton:"
+=======
+            timestampString = "493813770.143204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-prepareForSegue:sender:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -265,6 +341,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCTReward.m"
             timestampString = "493876881.678467"
             startingColumnNumber = "9223372036854775807"
@@ -272,6 +349,15 @@
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "-viewDidLoad"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813770.143204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-prepareForSegue:sender:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -281,6 +367,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCGoalDetalTabel.m"
             timestampString = "493851594.295032"
             startingColumnNumber = "9223372036854775807"
@@ -288,6 +375,15 @@
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "-viewWillAppear:"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813770.143204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-prepareForSegue:sender:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -297,6 +393,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCReward.m"
             timestampString = "493884678.344014"
             startingColumnNumber = "9223372036854775807"
@@ -304,6 +401,15 @@
             startingLineNumber = "35"
             endingLineNumber = "35"
             landmarkName = "-viewWillAppear:"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813770.143204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -313,6 +419,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCReward.m"
             timestampString = "493884678.344014"
             startingColumnNumber = "9223372036854775807"
@@ -320,6 +427,15 @@
             startingLineNumber = "34"
             endingLineNumber = "34"
             landmarkName = "-viewWillAppear:"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-pressedButtonDone:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -329,6 +445,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCRewardOut.m"
             timestampString = "493893464.139776"
             startingColumnNumber = "9223372036854775807"
@@ -336,6 +453,15 @@
             startingLineNumber = "55"
             endingLineNumber = "55"
             landmarkName = "-tableView:numberOfRowsInSection:"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-pressedButtonDone:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -345,6 +471,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCRewardOut.m"
             timestampString = "493893464.139776"
             startingColumnNumber = "9223372036854775807"
@@ -368,6 +495,15 @@
             startingLineNumber = "24"
             endingLineNumber = "24"
             landmarkName = "-viewDidLoad"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-pressedButtonDone:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -377,6 +513,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/VCRewardOut.m"
             timestampString = "493893464.139776"
             startingColumnNumber = "9223372036854775807"
@@ -384,6 +521,15 @@
             startingLineNumber = "26"
             endingLineNumber = "26"
             landmarkName = "-viewDidLoad"
+=======
+            filePath = "Taskmanager/TVCDailyTasks.m"
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-pressedButtonDone:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -394,12 +540,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494075636.166646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
             endingLineNumber = "106"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
+=======
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-pressedButtonDone:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -410,12 +565,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Taskmanager/TVCDailyTasks.m"
+<<<<<<< Updated upstream
             timestampString = "494077801.36668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
             endingLineNumber = "133"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
+=======
+            timestampString = "493813529.523107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-viewWillAppear:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -425,6 +589,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "Taskmanager/TVCDailyTasksCell.m"
             timestampString = "494077973.504133"
             startingColumnNumber = "9223372036854775807"
@@ -432,6 +597,15 @@
             startingLineNumber = "44"
             endingLineNumber = "44"
             landmarkName = "-buttonClicked:"
+=======
+            filePath = "Taskmanager/ViewController.m"
+            timestampString = "493817261.852065"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-viewDidLoad"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
